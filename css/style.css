@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #2D3A40;
+    padding-top: 50px;
+    border-bottom: 10px solid #ff7f50;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #ff7f50;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: #ff7f50;
+}
+.active{
+    color: #ff7f50 !important;
+    border-bottom:  1px solid #fff;
+}
+.information{
+    background-color: #2D3A40;
+    padding-top: 20px;
+    border-bottom: 10px solid #ff7f50;
+}
+.info-title{
+    color: #ff7f50;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.info-text{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.footer{
+    background-color: #2D3A40;
+    padding-top: 50px;
+}
+.footer-top{
+    padding-bottom: 20px;
+    border-bottom: 10px solid #ff7f50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title{
+    font-size: 50px;
+    background-color: #ff7f50;
+    color: #2D3A40;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.next-back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-link{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.footer-top-link:hover{
+    background-color: #fff;
+    color: #ff7f50;
+}
+.footer-bottom{
+    margin-top: 30px;
+}
+.creator{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0;
+    color: #ff7f50;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.who , .name , .number{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer-bottom-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+}
+.footer-item{
+    border-left: 3px solid #fff;
+    padding-left: 10px;
+}
+.about-me{
+    background-color:#2D3A40;
+    padding-top: 50px;
+    border-bottom: 10px solid #ff7f50;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.about-title{
+    color: #ff7f50;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-item{
+    width: 400px;
+}
+.about-list-info{
+    color: #ff7f50;
+    font-size: 35px;
+    text-align: center;
+}
+.about-list-text{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main{
+    border-bottom: 10px solid #ff7f50;
+    background-color: #2D3A40;
+    padding-top: 50px;
+}
+.main-title{
+    font-size: 40px;
+    text-align: center;
+    color: #ff7f50;
+}
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top:20px
+}
+.main-item{
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+.main-list-title{
+    font-size: 40px;
+    text-align: center;
+    color: #ff7f50;
+    margin-bottom: 20px;
+}
+.main-link{
+    font-size: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 3px solid #ff7f50;
+    border-radius: 40px;
+    color: #fff;
+    transition: 0.5s;
+}
+.main-link:hover{
+    background: #fff;
+    color: #ff7f50;
+}
